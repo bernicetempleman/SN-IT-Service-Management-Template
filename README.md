@@ -7,6 +7,16 @@ ServiceNow IT Service Management Template project includes customizing the OOB f
 - IT Infrastructure Library
 - JavaScript
 
+## Responsibilities
+- Worked as a member of the change management team.
+- Created a Functional Requirement Specification document with teammates.
+- Created an additional change request form.
+- Leveraged Workflow to handle change request flow.
+- Created buttons on each stage of the change request form using the UI Actions.
+- Modified the existing change request forms per our requirements.
+- Created UI Policy on the change request forms as per requirements.
+- Tested the instance to make sure all the requirements are met and function correctly
+
 ## Features
 
 List of features ready and TODOs for future development
