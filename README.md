@@ -85,6 +85,16 @@ Workflow
 
 ![image](https://user-images.githubusercontent.com/12488769/146454200-83fa377e-49ca-4f1b-8735-eb332bf32478.png)
 
+### Review
+![image](https://user-images.githubusercontent.com/12488769/146455845-34d4d03f-60db-4053-b207-463d224c640b.png)
+
+### Closed
+![image](https://user-images.githubusercontent.com/12488769/146456133-85889ea6-7a2a-4872-95d6-eae69fbb52ac.png)
+
+### Canceled
+![image](https://user-images.githubusercontent.com/12488769/146456490-1453280b-5525-4375-9674-bfeaa90429f2.png)
+
+
 ## Usage
 
 
