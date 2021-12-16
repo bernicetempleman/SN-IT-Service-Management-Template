@@ -32,6 +32,11 @@ To-do list:
 ### Overview
 ![image](https://user-images.githubusercontent.com/12488769/146371342-182f2231-a6ee-4683-a4b1-f995702f8ef7.png)
 
+### Change Requests
+![image](https://user-images.githubusercontent.com/12488769/146449171-620b6b7a-f51f-4e8a-bff3-3ce02ea30d37.png)
+
+![image](https://user-images.githubusercontent.com/12488769/146449296-0b5edcff-5871-4880-8b0a-b40e29b37a0c.png)
+
 ### New Change Form
 ![image](https://user-images.githubusercontent.com/12488769/146371860-5e8122b1-478c-4905-ac06-ea60b399ad5a.png)
 
