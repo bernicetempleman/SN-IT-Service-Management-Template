@@ -46,6 +46,22 @@ To-do list:
 ### List of Open Change Requests
 ![image](https://user-images.githubusercontent.com/12488769/146450574-413cf856-e687-4c42-8a03-2421309135d0.png)
 
+### New Emergency Change Request after submission
+
+![image](https://user-images.githubusercontent.com/12488769/146451190-a4776c10-c2a0-40fa-abc8-68b3a606a649.png)
+
+![image](https://user-images.githubusercontent.com/12488769/146451448-c17cc8d9-41d1-4033-b45d-1ece4d2d230b.png)
+
+![image](https://user-images.githubusercontent.com/12488769/146451562-67afa3d2-7959-496f-a287-553b004044aa.png)
+
+![image](https://user-images.githubusercontent.com/12488769/146451718-1ed56e2c-7526-47fe-bf93-8ee83a5b6321.png)
+
+### Waiting for Approval
+![image](https://user-images.githubusercontent.com/12488769/146451923-e806ef2e-a628-40f3-b22a-b668ef6670f3.png)
+
+![image](https://user-images.githubusercontent.com/12488769/146452121-64888cd2-ab23-4887-b63b-a74c3be30905.png)
+
+
 ## Usage
 
 
