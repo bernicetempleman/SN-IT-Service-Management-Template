@@ -1,0 +1,1343 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2021-12-16 12:39:20">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>BT_06122021_v1</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>f0f86e412f5001101b7cf7ecf699b687</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>5a5894902f6cc1101b7cf7ecf699b64f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_report_5f4eb8f62f5001101b7cf7ecf699b6b2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report"><sys_report action="INSERT_OR_UPDATE"><additional_groupby/><aggregate>COUNT</aggregate><aggregation_source>no_override</aggregation_source><allow_data_label_overlap>false</allow_data_label_overlap><apply_alias>false</apply_alias><axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color><axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color><bar_unstack>false</bar_unstack><calendar/><chart_background_color/><chart_border_color/><chart_border_radius>0</chart_border_radius><chart_border_width>1</chart_border_width><chart_height>450</chart_height><chart_size>small</chart_size><chart_subtitle/><chart_subtitle_color/><chart_subtitle_size>14</chart_subtitle_size><chart_subtitle_style>normal</chart_subtitle_style><chart_title/><chart_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</chart_title_color><chart_title_size>16</chart_title_size><chart_title_style>normal</chart_title_style><chart_title_x_position>0</chart_title_x_position><chart_title_y_position>0</chart_title_y_position><chart_width>600</chart_width><color display_value="Default Color">de699435d7033100b4964ebfae610331</color><color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette><colors/><column/><compute_percent>aggregate</compute_percent><content/><created_by_user display_value="Bernice Templeman">bd9cdec12f1001101b7cf7ecf699b60e</created_by_user><custom_chart_size>false</custom_chart_size><custom_chart_title_position>false</custom_chart_title_position><custom_config/><decimal_precision>2</decimal_precision><description/><direction>minimize</direction><display_column_lines>false</display_column_lines><display_grid>false</display_grid><display_row_lines>false</display_row_lines><donut_width_percent>50</donut_width_percent><end_time/><exp_report_attrs>true</exp_report_attrs><field>state</field><field_list>number,short_description,type,state,start_date,end_date,requested_by,assigned_to</field_list><filter table="change_request">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><formatting_configuration>{"table":"change_request","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration><from/><funnel_neck_percent>30</funnel_neck_percent><gauge_autoscale>false</gauge_autoscale><group/><import_table/><interval>year</interval><is_published>false</is_published><is_real_time>false</is_real_time><is_scheduled>false</is_scheduled><legend_align_columns>true</legend_align_columns><legend_background_color/><legend_border_color/><legend_border_radius>0</legend_border_radius><legend_border_width>1</legend_border_width><legend_horizontal_alignment>center</legend_horizontal_alignment><legend_items_left_align>false</legend_items_left_align><legend_vertical_alignment>bottom</legend_vertical_alignment><list_ui_view/><location_field/><lower_limit/><map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map><map_source/><orderby_list/><other_threshold>-2</other_threshold><others>true</others><page_hdrftr/><pivot_expanded>true</pivot_expanded><report_drilldown/><report_source/><roles/><row/><sc_groupby_item_id/><sc_groupby_variable_id/><sc_stackby_item_id/><sc_stackby_variable_id/><score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color><series_name_text/><set_color>chart_colors</set_color><show_chart_border>false</show_chart_border><show_chart_data_label>false</show_chart_data_label><show_chart_title>report</show_chart_title><show_chart_total>false</show_chart_total><show_data_label_position_middle>false</show_data_label_position_middle><show_empty>false</show_empty><show_geographical_label>false</show_geographical_label><show_legend>true</show_legend><show_legend_border>false</show_legend_border><show_marker>false</show_marker><show_zero>false</show_zero><source_type>table</source_type><start_time/><style_config/><sumfield>business_duration</sumfield><sys_class_name>sys_report</sys_class_name><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-11 23:34:16</sys_created_on><sys_id>5f4eb8f62f5001101b7cf7ecf699b6b2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Change Requests by State</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_report_5f4eb8f62f5001101b7cf7ecf699b6b2</sys_update_name><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-11 23:34:16</sys_updated_on><table>change_request</table><title>Change Requests by State</title><title_horizontal_alignment>center</title_horizontal_alignment><title_vertical_alignment>top</title_vertical_alignment><to/><trend_field/><type>bar</type><upper_limit/><use_color_heatmap>true</use_color_heatmap><use_null_in_trend>false</use_null_in_trend><user>bd9cdec12f1001101b7cf7ecf699b60e</user><x_axis_allow_decimals>true</x_axis_allow_decimals><x_axis_display_grid>false</x_axis_display_grid><x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color><x_axis_grid_dotted>false</x_axis_grid_dotted><x_axis_grid_width>1</x_axis_grid_width><x_axis_label_bold>false</x_axis_label_bold><x_axis_label_color/><x_axis_label_size>11</x_axis_label_size><x_axis_label_tilt>0</x_axis_label_tilt><x_axis_opposite>false</x_axis_opposite><x_axis_title/><x_axis_title_bold>true</x_axis_title_bold><x_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_title_color><x_axis_title_size>12</x_axis_title_size><y_axis_allow_decimals>true</y_axis_allow_decimals><y_axis_display_grid>true</y_axis_display_grid><y_axis_from/><y_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</y_axis_grid_color><y_axis_grid_dotted>false</y_axis_grid_dotted><y_axis_grid_width>1</y_axis_grid_width><y_axis_label_bold>false</y_axis_label_bold><y_axis_label_color/><y_axis_label_size>11</y_axis_label_size><y_axis_label_tilt>0</y_axis_label_tilt><y_axis_opposite>false</y_axis_opposite><y_axis_title/><y_axis_title_bold>true</y_axis_title_bold><y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color><y_axis_title_size>12</y_axis_title_size><y_axis_to/></sys_report></record_update>]]></payload>
+<payload_hash>-1350952798</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>125894902f6cc1101b7cf7ecf699b652</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17dabd8deb40000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Change Requests by State</target_name>
+<type>Report</type>
+<update_domain>global</update_domain>
+<update_guid>df4e303ae2500110612712115fe48e79</update_guid>
+<update_guid_history>df4e303ae2500110612712115fe48e79:-1350952798</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_5b3e4f562fd405101b7cf7ecf699b64c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=System Software^EQ&lt;item display_value="System Software" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="System Software"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;System Software Group&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mmyers&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-10 20:47:15&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5b3e4f562fd405101b7cf7ecf699b64c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;System Software Group&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_5b3e4f562fd405101b7cf7ecf699b64c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;btempleman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-14 17:14:23&lt;/sys_updated_on&gt;&lt;template&gt;assignment_group=fc4416c62fd0c1101b7cf7ecf699b69a^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=5b3e4f562fd405101b7cf7ecf699b64c"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1287943021</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>125894902f6cc1101b7cf7ecf699b655</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17db9f0281e0000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>System Software Group</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>0024cf277958411042703bb93186d6ee</update_guid>
+<update_guid_history>0024cf277958411042703bb93186d6ee:1287943021,137e47965ad405101830770e978b9907:2106298682</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_grid_canvas_pane_e6f664362f1001101b7cf7ecf699b6aa</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA Change - New Tab">6ab568f22f1001101b7cf7ecf699b6b2</grid_canvas><height>10</height><portal_widget display_value="Created 2021-12-11 13:52:22">6ef664362f1001101b7cf7ecf699b6a8</portal_widget><posx>6</posx><posy>0</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-11 21:52:22</sys_created_on><sys_id>e6f664362f1001101b7cf7ecf699b6aa</sys_id><sys_mod_count>9</sys_mod_count><sys_name>6ab568f22f1001101b7cf7ecf699b6b2</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_grid_canvas_pane_e6f664362f1001101b7cf7ecf699b6aa</sys_update_name><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-11 23:47:12</sys_updated_on><width>6</width></sys_grid_canvas_pane></record_update>]]></payload>
+<payload_hash>471950434</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>165894902f6cc1101b7cf7ecf699b651</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17dabe4b6c30000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table/>
+<target_name>6ab568f22f1001101b7cf7ecf699b6b2</target_name>
+<type>Grid Canvas Pane</type>
+<update_domain>global</update_domain>
+<update_guid>384149baf050011077fdfc1fb690116a</update_guid>
+<update_guid_history>384149baf050011077fdfc1fb690116a:471950434,5821c5ba125001102375cf788767f454:1295138479,481145ba3b500110ef3233b75b751158:737154416,ad40c97a7e50011083e2b59b95994583:1295138479,a63fbcf66e500110263f1a054866224d:471950434,af2f3c3a7a5001108e85e2fe1b8b581c:1408748974,feae743a035001100b2e227cf693f837:-1916637299,fcae743a9b5001106e246698a2ff5b5d:-355919006,f19e343abc50011093142d69db5835ba:202877412,66f6e8366a1001102cbf4706ea3997a5:1478799173</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_340e0b562fd405101b7cf7ecf699b691</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=Applications Software^EQ&lt;item display_value="Applications Software" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="Applications Software"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Applicaions Software Group&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;shagadorn&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-10 20:45:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;340e0b562fd405101b7cf7ecf699b691&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Applicaions Software Group&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_340e0b562fd405101b7cf7ecf699b691&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;btempleman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-14 16:17:12&lt;/sys_updated_on&gt;&lt;template&gt;assignment_group=168496c62fd0c1101b7cf7ecf699b64c^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=340e0b562fd405101b7cf7ecf699b691"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1208841540</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>165894902f6cc1101b7cf7ecf699b654</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17db9bbcc870000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Applicaions Software Group</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>9e07ba276218411030506585576ac53d</update_guid>
+<update_guid_history>9e07ba276218411030506585576ac53d:1208841540,9c2ecb56b3d405101cca73f0dc4eee1f:976293265,b00e0b5607d4051099870b9611844095:-2109947678</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_fcb7d28e2fd0c1101b7cf7ecf699b62a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=Telecom^EQ&lt;item display_value="Telecom" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="Telecom"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Change Request-Change Category Telecom&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;fhoracio&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-09 22:11:03&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;fcb7d28e2fd0c1101b7cf7ecf699b62a&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Change Request-Change Category Telecom&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_fcb7d28e2fd0c1101b7cf7ecf699b62a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;btempleman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-14 16:09:38&lt;/sys_updated_on&gt;&lt;template&gt;assignment_group=b7a4dac62fd0c1101b7cf7ecf699b6f6^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=fcb7d28e2fd0c1101b7cf7ecf699b62a"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-483385567</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>165894902f6cc1101b7cf7ecf699b657</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17db9b4debd0000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Change Request-Change Category Telecom</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>2745b2a3a8184110380fb352e79c6d47</update_guid>
+<update_guid_history>2745b2a3a8184110380fb352e79c6d47:-483385567,bd3896ce6cd0c110ac292eaf114c0410:-1984865472,411812ce10d0c1106374f31a101791ca:195867739</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_cd591479c0a801640182b9b52e6f070b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="cd591479c0a801640182b9b52e6f070b" sys_domain="global" table="change_request" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>process_flow.xml</element><position>0</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>495184f72f5c41101b7cf7ecf699b67d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Process Flow">43891b33cb100200d71cb9c0c24c9c56</sys_ui_formatter><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>1</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>455184f72f5c41101b7cf7ecf699b67e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>2</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>c95184f72f5c41101b7cf7ecf699b67e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>requested_by</element><position>3</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>415184f72f5c41101b7cf7ecf699b67f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>category</element><position>4</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>c55184f72f5c41101b7cf7ecf699b67f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>urgency</element><position>5</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>4d5184f72f5c41101b7cf7ecf699b67f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>impact</element><position>6</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>c15184f72f5c41101b7cf7ecf699b680</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>priority</element><position>7</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>495184f72f5c41101b7cf7ecf699b680</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>risk</element><position>8</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>cd5184f72f5c41101b7cf7ecf699b680</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>9</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>455184f72f5c41101b7cf7ecf699b681</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>approval</element><position>10</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>c95184f72f5c41101b7cf7ecf699b681</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>chg_model</element><position>11</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>415184f72f5c41101b7cf7ecf699b682</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>type</element><position>12</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>c55184f72f5c41101b7cf7ecf699b682</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>state</element><position>13</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>4d5184f72f5c41101b7cf7ecf699b682</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>on_hold</element><position>14</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>c15184f72f5c41101b7cf7ecf699b683</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>conflict_status</element><position>15</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>495184f72f5c41101b7cf7ecf699b683</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>conflict_last_run</element><position>16</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>cd5184f72f5c41101b7cf7ecf699b683</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assignment_group</element><position>17</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>455184f72f5c41101b7cf7ecf699b684</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assigned_to</element><position>18</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>c95184f72f5c41101b7cf7ecf699b684</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cmdb_ci</element><position>19</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>415184f72f5c41101b7cf7ecf699b685</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>20</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>c55184f72f5c41101b7cf7ecf699b685</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>21</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>4d5184f72f5c41101b7cf7ecf699b685</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>22</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>c15184f72f5c41101b7cf7ecf699b686</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>on_hold_reason</element><position>23</position><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 21:41:47</sys_created_on><sys_id>495184f72f5c41101b7cf7ecf699b686</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="change_request" sys_domain="global" view="Default view">cd591479c0a801640182b9b52e6f070b</sys_ui_section><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 21:41:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>change_request</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>fred.luddy</sys_created_by><sys_created_on>2004-07-17 13:44:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>cd591479c0a801640182b9b52e6f070b</sys_id><sys_mod_count>3</sys_mod_count><sys_name>change_request</sys_name><sys_overrides/><sys_package display_value="System (apps/system_ui)" source="apps/system_ui">9fad9603a9223010c0a065f439e661e3</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_cd591479c0a801640182b9b52e6f070b</sys_update_name><sys_updated_by>glide.maint</sys_updated_by><sys_updated_on>2007-11-20 22:21:54</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-67725396</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>16589c902f6cc1101b7cf7ecf699b6c0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17dbae4f7a10000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Change Request</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>095184f7975c4110432d277400203389</update_guid>
+<update_guid_history>095184f7975c4110432d277400203389:-67725396,805b2f6fd5d841107196bc9763652288:-1065118330,04d7a3abe8d841108cfd74a01cfd9a6a:-2098405263,41c763ab4ad84110b81b6c67fe06df98:-1065118330,c37faa2bedd44110c32168c1985fda5d:1957778959,fec3269f96d40110d2633fe443ad40fc:1719886981,04d46b5ac31001107fc2d1a1ac6c99c6:1957778959,2ca4635a96100110d753751e67f3959d:1486817923,dc84af1a8110011006d57f16da767f07:-967223395,dc24e31a141001101d0a18b29e24206b:-1473767211,5824e31a851001102e39853bf2665053:-828168165</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>pa_tabs_b2b568f22f1001101b7cf7ecf699b6b6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs"><pa_tabs action="INSERT_OR_UPDATE"><canvas_page display_value="PA Change - New Tab">6ab568f22f1001101b7cf7ecf699b6b2</canvas_page><name>Change - New Tab</name><page display_value="PA Change - New Tab">2eb568f22f1001101b7cf7ecf699b6b0</page><sys_class_name>pa_tabs</sys_class_name><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-11 21:46:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b2b568f22f1001101b7cf7ecf699b6b6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Change - New Tab</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>pa_tabs_b2b568f22f1001101b7cf7ecf699b6b6</sys_update_name><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-11 21:46:54</sys_updated_on></pa_tabs></record_update>]]></payload>
+<payload_hash>1577553470</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>1a5894902f6cc1101b7cf7ecf699b650</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17dab7694c60000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table/>
+<target_name>Change - New Tab</target_name>
+<type>Tab</type>
+<update_domain>global</update_domain>
+<update_guid>32b568f229100110c0cbf865ee318db8</update_guid>
+<update_guid_history>32b568f229100110c0cbf865ee318db8:1577553470</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_report_users_groups_d39664362f1001101b7cf7ecf699b683</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups"><sys_report_users_groups action="INSERT_OR_UPDATE"><group_id/><report_id display_value="">1b9664362f1001101b7cf7ecf699b682</report_id><sys_class_name>sys_report_users_groups</sys_class_name><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-11 21:50:46</sys_created_on><sys_id>d39664362f1001101b7cf7ecf699b683</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1b9664362f1001101b7cf7ecf699b682</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_report_users_groups_d39664362f1001101b7cf7ecf699b683</sys_update_name><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-11 21:50:46</sys_updated_on><user_id display_value="Bernice Templeman">bd9cdec12f1001101b7cf7ecf699b60e</user_id></sys_report_users_groups></record_update>]]></payload>
+<payload_hash>466496265</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>1a5894902f6cc1101b7cf7ecf699b653</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17dab7a1c6c0000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table/>
+<target_name>1b9664362f1001101b7cf7ecf699b682</target_name>
+<type>Report Users and Groups</type>
+<update_domain>global</update_domain>
+<update_guid>5f966436b510011033d65e3dcfa54484</update_guid>
+<update_guid_history>5f966436b510011033d65e3dcfa54484:466496265</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_eaa69aca2fd0c1101b7cf7ecf699b666</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=System Software^EQ&lt;item display_value="System Software" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="System Software"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Change Request-Change Category Sys Soft&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;fhoracio&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-09 22:06:22&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;eaa69aca2fd0c1101b7cf7ecf699b666&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Change Request-Change Category Sys Soft&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_eaa69aca2fd0c1101b7cf7ecf699b666&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;btempleman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-14 16:04:16&lt;/sys_updated_on&gt;&lt;template&gt;assignment_group=fc4416c62fd0c1101b7cf7ecf699b69a^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=eaa69aca2fd0c1101b7cf7ecf699b666"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>439011401</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>1a5894902f6cc1101b7cf7ecf699b656</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17db9aff5ee0000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Change Request-Change Category Sys Soft</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>3c14f2230b184110f823741f0afae4e4</update_guid>
+<update_guid_history>3c14f2230b184110f823741f0afae4e4:439011401,e807d20e52d0c1100452722f3095b5e7:-1574302808</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_change_request_RPT7db0f7d6ff0302001e68ffffffffffbb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="change_request" version="2" view="RPT7db0f7d6ff0302001e68ffffffffffbb"><sys_ui_list_element action="DELETE"><average_value>false</average_value><element>number</element><list_id display_value="change_request" element="NULL" name="change_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db0e0ca7d722220035ae23c7ce61036b</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2016-10-24 14:28:38</sys_created_on><sys_id>130e0ca7d722220035ae23c7ce61036c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2016-10-24 14:28:38</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="DELETE"><average_value>false</average_value><element>short_description</element><list_id display_value="change_request" element="NULL" name="change_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db0e0ca7d722220035ae23c7ce61036b</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2016-10-24 14:28:38</sys_created_on><sys_id>930e0ca7d722220035ae23c7ce61036c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2016-10-24 14:28:38</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="DELETE"><average_value>false</average_value><element>type</element><list_id display_value="change_request" element="NULL" name="change_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db0e0ca7d722220035ae23c7ce61036b</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2016-10-24 14:28:38</sys_created_on><sys_id>170e0ca7d722220035ae23c7ce61036c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2016-10-24 14:28:38</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="DELETE"><average_value>false</average_value><element>state</element><list_id display_value="change_request" element="NULL" name="change_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db0e0ca7d722220035ae23c7ce61036b</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2016-10-24 14:28:38</sys_created_on><sys_id>970e0ca7d722220035ae23c7ce61036c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2016-10-24 14:28:38</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="DELETE"><average_value>false</average_value><element>start_date</element><list_id display_value="change_request" element="NULL" name="change_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db0e0ca7d722220035ae23c7ce61036b</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2016-10-24 14:28:38</sys_created_on><sys_id>1b0e0ca7d722220035ae23c7ce61036c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2016-10-24 14:28:38</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="DELETE"><average_value>false</average_value><element>end_date</element><list_id display_value="change_request" element="NULL" name="change_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db0e0ca7d722220035ae23c7ce61036b</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2016-10-24 14:28:38</sys_created_on><sys_id>9b0e0ca7d722220035ae23c7ce61036c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2016-10-24 14:28:38</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="DELETE"><average_value>false</average_value><element>requested_by</element><list_id display_value="change_request" element="NULL" name="change_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db0e0ca7d722220035ae23c7ce61036b</list_id><max_value>false</max_value><min_value>false</min_value><position>6</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2016-10-24 14:28:38</sys_created_on><sys_id>1f0e0ca7d722220035ae23c7ce61036c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2016-10-24 14:28:38</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="DELETE"><average_value>false</average_value><element>assigned_to</element><list_id display_value="change_request" element="NULL" name="change_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db0e0ca7d722220035ae23c7ce61036b</list_id><max_value>false</max_value><min_value>false</min_value><position>7</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2016-10-24 14:28:38</sys_created_on><sys_id>9f0e0ca7d722220035ae23c7ce61036c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2016-10-24 14:28:38</sys_updated_on></sys_ui_list_element><sys_ui_list action="DELETE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>change_request</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path/><sys_id/><sys_mod_count/><sys_name>change_request</sys_name><sys_package/><sys_policy/><sys_scope/><sys_update_name/><sys_updated_by/><sys_updated_on>2021-12-13 16:46:21</sys_updated_on><sys_user/><view display_value="Rpt7db0f7d6ff0302001e68ffffffffffbb" name="RPT7db0f7d6ff0302001e68ffffffffffbb">8c63fd572fd001101b7cf7ecf699b6cb</view><view_name>RPT7db0f7d6ff0302001e68ffffffffffbb</view_name></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>2002986203</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>1a589c902f6cc1101b7cf7ecf699b6bf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17db4b021990000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Change Request</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid>ab14fdd7b3d00110df47757e2a2e0f9b</update_guid>
+<update_guid_history>ab14fdd7b3d00110df47757e2a2e0f9b:2002986203,c063fd57a4d0011081fba5d03bcd4bcf:2002986203</update_guid_history>
+<update_set display_value=""/>
+<view>RPT7db0f7d6ff0302001e68ffffffffffbb</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_report_users_groups_30ffb47a2f5001101b7cf7ecf699b656</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups"><sys_report_users_groups action="INSERT_OR_UPDATE"><group_id/><report_id display_value="">f0ffb47a2f5001101b7cf7ecf699b655</report_id><sys_class_name>sys_report_users_groups</sys_class_name><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-11 23:41:28</sys_created_on><sys_id>30ffb47a2f5001101b7cf7ecf699b656</sys_id><sys_mod_count>0</sys_mod_count><sys_name>f0ffb47a2f5001101b7cf7ecf699b655</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_report_users_groups_30ffb47a2f5001101b7cf7ecf699b656</sys_update_name><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-11 23:41:28</sys_updated_on><user_id display_value="Bernice Templeman">bd9cdec12f1001101b7cf7ecf699b60e</user_id></sys_report_users_groups></record_update>]]></payload>
+<payload_hash>-50542569</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>1e5894902f6cc1101b7cf7ecf699b652</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17dabdf75a10000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table/>
+<target_name>f0ffb47a2f5001101b7cf7ecf699b655</target_name>
+<type>Report Users and Groups</type>
+<update_domain>global</update_domain>
+<update_guid>f8ffb47a3b50011019f0bc5abc09be57</update_guid>
+<update_guid_history>f8ffb47a3b50011019f0bc5abc09be57:-50542569</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_f78c58f72f1081101b7cf7ecf699b608</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;active&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;change requestor&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   if(!g_form.getValue('caller_id')) {
+		g_form.setValue('caller_id', g_user.userID, g_user.userName);
+	}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;btempleman&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-14 23:41:49&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f78c58f72f1081101b7cf7ecf699b608&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;change requestor&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_f78c58f72f1081101b7cf7ecf699b608&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;btempleman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-14 23:41:49&lt;/sys_updated_on&gt;&lt;table&gt;change_request&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1588823473</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>1e5894902f6cc1101b7cf7ecf699b655</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17dbb52dcc70000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>change requestor</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>d7cc543b211081106030a533d83bb928</update_guid>
+<update_guid_history>d7cc543b211081106030a533d83bb928:1588823473</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_grid_canvas_pane_2b16ecf22f1001101b7cf7ecf699b6f1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="DELETE"><grid_canvas display_value="PA Change - New Tab">6ab568f22f1001101b7cf7ecf699b6b2</grid_canvas><height>10</height><portal_widget display_value="">eb162cb22f1001101b7cf7ecf699b698</portal_widget><posx>0</posx><posy>10</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-11 21:48:36</sys_created_on><sys_id>2b16ecf22f1001101b7cf7ecf699b6f1</sys_id><sys_mod_count>1</sys_mod_count><sys_name>6ab568f22f1001101b7cf7ecf699b6b2</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_grid_canvas_pane_2b16ecf22f1001101b7cf7ecf699b6f1</sys_update_name><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-11 21:52:22</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+<payload_hash>1257851040</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>525894902f6cc1101b7cf7ecf699b651</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17dab7bc7fe0000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table/>
+<target_name>6ab568f22f1001101b7cf7ecf699b6b2</target_name>
+<type>Grid Canvas Pane</type>
+<update_domain>global</update_domain>
+<update_guid>46072c36a91001107185cd27a7a7444e</update_guid>
+<update_guid_history>46072c36a91001107185cd27a7a7444e:1257851040,76f6a4367310011089d0210c5949fdb7:165798091,a716ecf20a10011061010c429ae6aff3:1616150398</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_2e191a022f14c1101b7cf7ecf699b60a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=Documentation^EQ&lt;item display_value="Documentation" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="Documentation"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Change Request-Change Category Documenta&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;fhoracio&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-09 22:16:44&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2e191a022f14c1101b7cf7ecf699b60a&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Change Request-Change Category Documenta&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_2e191a022f14c1101b7cf7ecf699b60a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;btempleman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-14 16:10:16&lt;/sys_updated_on&gt;&lt;template&gt;assignment_group=0ad45ec62fd0c1101b7cf7ecf699b612^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2e191a022f14c1101b7cf7ecf699b60a"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>84456443</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>525894902f6cc1101b7cf7ecf699b654</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17db9b574980000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Change Request-Change Category Documenta</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>bc75baa3db184110cfa8a484b0724213</update_guid>
+<update_guid_history>bc75baa3db184110cfa8a484b0724213:84456443,9069de023814c11022cad233f60ef1b5:11960026</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_f77d4b162fd405101b7cf7ecf699b6a7</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=Other^EQ&lt;item display_value="Other" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="Other"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Other Group&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;shagadorn&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-10 20:42:55&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f77d4b162fd405101b7cf7ecf699b6a7&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Other Group&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_f77d4b162fd405101b7cf7ecf699b6a7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;btempleman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-14 16:12:45&lt;/sys_updated_on&gt;&lt;template&gt;assignment_group=a715cd759f2002002920bde8132e7018^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f77d4b162fd405101b7cf7ecf699b6a7"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1690065421</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>525894902f6cc1101b7cf7ecf699b657</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17db9b7b99b0000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Other Group</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>81063ae371184110babccc88c1f5e525</update_guid>
+<update_guid_history>81063ae371184110babccc88c1f5e525:-1690065421,b77d4b163bd405102087606d4fc25cab:-999212998</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_b2080c372f9c41101b7cf7ecf699b6b9</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="change_request"&gt;state=-5^ORstate=3^ORstate=4^EQ&lt;item display_value="New" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="-5"/&gt;&lt;item display_value="Closed" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="3"/&gt;&lt;item display_value="Canceled" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="4"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Change make onhold not visible  in state  new closed cancel&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;btempleman&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-14 22:13:54&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b2080c372f9c41101b7cf7ecf699b6b9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Change make onhold not visible  in state  new closed cancel&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_b2080c372f9c41101b7cf7ecf699b6b9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;btempleman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-14 22:13:54&lt;/sys_updated_on&gt;&lt;table&gt;change_request&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1461129271</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>52589c902f6cc1101b7cf7ecf699b6c0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17dbb025dc70000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Change make onhold not visible  in state  new closed cancel</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>d3a88c77939c411097b0585113ca8695</update_guid>
+<update_guid_history>d3a88c77939c411097b0585113ca8695:1461129271</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>pa_m2m_dashboard_tabs_32b568f22f1001101b7cf7ecf699b6b9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs"><pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE"><dashboard display_value="Change">bd456cb22f1001101b7cf7ecf699b6b5</dashboard><home>false</home><homepage/><order>1</order><sys_class_name>pa_m2m_dashboard_tabs</sys_class_name><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-11 21:46:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>32b568f22f1001101b7cf7ecf699b6b9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>bd456cb22f1001101b7cf7ecf699b6b5</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>pa_m2m_dashboard_tabs_32b568f22f1001101b7cf7ecf699b6b9</sys_update_name><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-11 21:46:55</sys_updated_on><tab display_value="Change - New Tab">b2b568f22f1001101b7cf7ecf699b6b6</tab></pa_m2m_dashboard_tabs></record_update>]]></payload>
+<payload_hash>1951484776</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>565894902f6cc1101b7cf7ecf699b650</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17dab76956c0000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table/>
+<target_name>bd456cb22f1001101b7cf7ecf699b6b5</target_name>
+<type>Dashboard Tab</type>
+<update_domain>global</update_domain>
+<update_guid>feb568f2fc1001102e736bb38861d6ba</update_guid>
+<update_guid_history>feb568f2fc1001102e736bb38861d6ba:1951484776</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_report_users_groups_9b4eb8f62f5001101b7cf7ecf699b6b3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups"><sys_report_users_groups action="INSERT_OR_UPDATE"><group_id/><report_id display_value="">5f4eb8f62f5001101b7cf7ecf699b6b2</report_id><sys_class_name>sys_report_users_groups</sys_class_name><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-11 23:34:16</sys_created_on><sys_id>9b4eb8f62f5001101b7cf7ecf699b6b3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>5f4eb8f62f5001101b7cf7ecf699b6b2</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_report_users_groups_9b4eb8f62f5001101b7cf7ecf699b6b3</sys_update_name><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-11 23:34:16</sys_updated_on><user_id display_value="Bernice Templeman">bd9cdec12f1001101b7cf7ecf699b60e</user_id></sys_report_users_groups></record_update>]]></payload>
+<payload_hash>1971928115</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>565894902f6cc1101b7cf7ecf699b653</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17dabd8dd6c0000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table/>
+<target_name>5f4eb8f62f5001101b7cf7ecf699b6b2</target_name>
+<type>Report Users and Groups</type>
+<update_domain>global</update_domain>
+<update_guid>1b4eb8f65f50011034ac10483263d1b5</update_guid>
+<update_guid_history>1b4eb8f65f50011034ac10483263d1b5:1971928115</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_e1ed83562fd405101b7cf7ecf699b615</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=Service^EQ&lt;item display_value="Service" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="Service"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Service Group&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mmyers&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-10 20:45:46&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e1ed83562fd405101b7cf7ecf699b615&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Service Group&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_e1ed83562fd405101b7cf7ecf699b615&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;btempleman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-14 17:13:43&lt;/sys_updated_on&gt;&lt;template&gt;assignment_group=1b04de862fd0c1101b7cf7ecf699b63e^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=e1ed83562fd405101b7cf7ecf699b615"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1586408033</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>565894902f6cc1101b7cf7ecf699b656</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17db9ef8ae90000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Service Group</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>def34f27255841105bde18d0b921a1cd</update_guid>
+<update_guid_history>def34f27255841105bde18d0b921a1cd:-1586408033,252ecb5682d40510da8c7fec98ccdab6:-356776852</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_report_f0ffb47a2f5001101b7cf7ecf699b655</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report"><sys_report action="INSERT_OR_UPDATE"><additional_groupby/><aggregate>COUNT</aggregate><aggregation_source>no_override</aggregation_source><allow_data_label_overlap>false</allow_data_label_overlap><apply_alias>false</apply_alias><axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color><axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color><bar_unstack>false</bar_unstack><calendar/><chart_background_color/><chart_border_color/><chart_border_radius>0</chart_border_radius><chart_border_width>1</chart_border_width><chart_height>450</chart_height><chart_size>large</chart_size><chart_subtitle/><chart_subtitle_color/><chart_subtitle_size>14</chart_subtitle_size><chart_subtitle_style>normal</chart_subtitle_style><chart_title/><chart_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</chart_title_color><chart_title_size>16</chart_title_size><chart_title_style>normal</chart_title_style><chart_title_x_position>0</chart_title_x_position><chart_title_y_position>0</chart_title_y_position><chart_width>600</chart_width><color display_value="Default Color">de699435d7033100b4964ebfae610331</color><color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette><colors/><column/><compute_percent>aggregate</compute_percent><content/><created_by_user display_value="Bernice Templeman">bd9cdec12f1001101b7cf7ecf699b60e</created_by_user><custom_chart_size>false</custom_chart_size><custom_chart_title_position>false</custom_chart_title_position><custom_config/><decimal_precision>2</decimal_precision><description/><direction>minimize</direction><display_column_lines>false</display_column_lines><display_grid>false</display_grid><display_row_lines>false</display_row_lines><donut_width_percent>50</donut_width_percent><end_time/><exp_report_attrs>false</exp_report_attrs><field>start_date</field><field_list>number,short_description,type,state,start_date,end_date,requested_by,assigned_to</field_list><filter/><formatting_configuration>{"table":"change_request","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration><from/><funnel_neck_percent>30</funnel_neck_percent><gauge_autoscale>false</gauge_autoscale><group/><import_table/><interval>year</interval><is_published>false</is_published><is_real_time>false</is_real_time><is_scheduled>false</is_scheduled><legend_align_columns>true</legend_align_columns><legend_background_color/><legend_border_color/><legend_border_radius>0</legend_border_radius><legend_border_width>1</legend_border_width><legend_horizontal_alignment>center</legend_horizontal_alignment><legend_items_left_align>false</legend_items_left_align><legend_vertical_alignment>bottom</legend_vertical_alignment><list_ui_view/><location_field/><lower_limit/><map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map><map_source/><orderby_list/><other_threshold>-2</other_threshold><others>true</others><page_hdrftr/><pivot_expanded>true</pivot_expanded><report_drilldown/><report_source/><roles/><row/><sc_groupby_item_id/><sc_groupby_variable_id/><sc_stackby_item_id/><sc_stackby_variable_id/><score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color><series_name_text/><set_color>null</set_color><show_chart_border>false</show_chart_border><show_chart_data_label>false</show_chart_data_label><show_chart_title>report</show_chart_title><show_chart_total>false</show_chart_total><show_data_label_position_middle>false</show_data_label_position_middle><show_empty>false</show_empty><show_geographical_label>false</show_geographical_label><show_legend>true</show_legend><show_legend_border>false</show_legend_border><show_marker>false</show_marker><show_zero>false</show_zero><source_type>table</source_type><start_time/><style_config/><sumfield/><sys_class_name>sys_report</sys_class_name><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-11 23:41:28</sys_created_on><sys_id>f0ffb47a2f5001101b7cf7ecf699b655</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Change Calendar</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_report_f0ffb47a2f5001101b7cf7ecf699b655</sys_update_name><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-11 23:41:28</sys_updated_on><table>change_request</table><title>Change Calendar</title><title_horizontal_alignment>center</title_horizontal_alignment><title_vertical_alignment>top</title_vertical_alignment><to/><trend_field>start_date</trend_field><type>calendar</type><upper_limit/><use_color_heatmap>true</use_color_heatmap><use_null_in_trend>false</use_null_in_trend><user>bd9cdec12f1001101b7cf7ecf699b60e</user><x_axis_allow_decimals>true</x_axis_allow_decimals><x_axis_display_grid>false</x_axis_display_grid><x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color><x_axis_grid_dotted>false</x_axis_grid_dotted><x_axis_grid_width>1</x_axis_grid_width><x_axis_label_bold>false</x_axis_label_bold><x_axis_label_color/><x_axis_label_size>11</x_axis_label_size><x_axis_label_tilt>0</x_axis_label_tilt><x_axis_opposite>false</x_axis_opposite><x_axis_title/><x_axis_title_bold>true</x_axis_title_bold><x_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_title_color><x_axis_title_size>12</x_axis_title_size><y_axis_allow_decimals>true</y_axis_allow_decimals><y_axis_display_grid>true</y_axis_display_grid><y_axis_from/><y_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</y_axis_grid_color><y_axis_grid_dotted>false</y_axis_grid_dotted><y_axis_grid_width>1</y_axis_grid_width><y_axis_label_bold>false</y_axis_label_bold><y_axis_label_color/><y_axis_label_size>11</y_axis_label_size><y_axis_label_tilt>0</y_axis_label_tilt><y_axis_opposite>false</y_axis_opposite><y_axis_title/><y_axis_title_bold>true</y_axis_title_bold><y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color><y_axis_title_size>12</y_axis_title_size><y_axis_to/></sys_report></record_update>]]></payload>
+<payload_hash>-947980922</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>5a5894902f6cc1101b7cf7ecf699b652</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17dabdf75f20000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Change Calendar</target_name>
+<type>Report</type>
+<update_domain>global</update_domain>
+<update_guid>34ffb47a0c5001101614bb2318950e5a</update_guid>
+<update_guid_history>34ffb47a0c5001101614bb2318950e5a:-947980922</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_8e6c87922fd405101b7cf7ecf699b689</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=Hardware^EQ&lt;item display_value="Hardware" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="Hardware"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Hardware Group&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mmyers&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-10 20:39:55&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8e6c87922fd405101b7cf7ecf699b689&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Hardware Group&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_8e6c87922fd405101b7cf7ecf699b689&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;btempleman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-14 17:12:39&lt;/sys_updated_on&gt;&lt;template&gt;assignment_group=8a5055c9c61122780043563ef53438e3^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=8e6c87922fd405101b7cf7ecf699b689"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-374004026</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>5a5894902f6cc1101b7cf7ecf699b655</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17db9ee92620000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Hardware Group</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>62b3c727a7584110163eba4f041ede4e</update_guid>
+<update_guid_history>62b3c727a7584110163eba4f041ede4e:-374004026,eddd835602d40510d4958acd80a00de4:666415129,8cdccf9259d40510527ac6c8c5b6f94d:-2085706228</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>pa_dashboards_bd456cb22f1001101b7cf7ecf699b6b5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dashboards"><pa_dashboards action="INSERT_OR_UPDATE"><active>true</active><breakdown_source/><color>#ffffff</color><disable_multiple_element>false</disable_multiple_element><group/><groups/><is_breakdown>false</is_breakdown><managed_breakdown/><managed_publisher/><name>Change</name><no_tabs>false</no_tabs><order/><owner display_value="Bernice Templeman">bd9cdec12f1001101b7cf7ecf699b60e</owner><restrict_to_roles>itil,itil_admin,change_manager,admin</restrict_to_roles><role_override>true</role_override><roles/><should_migrate_permissions>false</should_migrate_permissions><sys_class_name>pa_dashboards</sys_class_name><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-11 21:46:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bd456cb22f1001101b7cf7ecf699b6b5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Change</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>pa_dashboards_bd456cb22f1001101b7cf7ecf699b6b5</sys_update_name><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-11 21:46:54</sys_updated_on><users/><visible_to>2</visible_to></pa_dashboards></record_update>]]></payload>
+<payload_hash>-445152017</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>5e5894902f6cc1101b7cf7ecf699b64f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17dab7695a90000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table/>
+<target_name>Change</target_name>
+<type>Dashboard</type>
+<update_domain>global</update_domain>
+<update_guid>f2b568f246100110e0afa67cbcd338bc</update_guid>
+<update_guid_history>f2b568f246100110e0afa67cbcd338bc:-445152017</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_report_1b9664362f1001101b7cf7ecf699b682</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report"><sys_report action="INSERT_OR_UPDATE"><additional_groupby/><aggregate>COUNT</aggregate><aggregation_source>no_override</aggregation_source><allow_data_label_overlap>false</allow_data_label_overlap><apply_alias>false</apply_alias><axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color><axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color><bar_unstack>false</bar_unstack><calendar/><chart_background_color/><chart_border_color/><chart_border_radius>0</chart_border_radius><chart_border_width>1</chart_border_width><chart_height>450</chart_height><chart_size>small</chart_size><chart_subtitle/><chart_subtitle_color/><chart_subtitle_size>14</chart_subtitle_size><chart_subtitle_style>normal</chart_subtitle_style><chart_title/><chart_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</chart_title_color><chart_title_size>16</chart_title_size><chart_title_style>normal</chart_title_style><chart_title_x_position>0</chart_title_x_position><chart_title_y_position>0</chart_title_y_position><chart_width>600</chart_width><color display_value="Default Color">de699435d7033100b4964ebfae610331</color><color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette><colors/><column/><compute_percent>aggregate</compute_percent><content/><created_by_user display_value="Bernice Templeman">bd9cdec12f1001101b7cf7ecf699b60e</created_by_user><custom_chart_size>false</custom_chart_size><custom_chart_title_position>false</custom_chart_title_position><custom_config/><decimal_precision>2</decimal_precision><description/><direction>minimize</direction><display_column_lines>false</display_column_lines><display_grid>false</display_grid><display_row_lines>false</display_row_lines><donut_width_percent>50</donut_width_percent><end_time/><exp_report_attrs>true</exp_report_attrs><field>category</field><field_list>number,short_description,type,state,start_date,end_date,requested_by,assigned_to</field_list><filter table="change_request">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><formatting_configuration>{"table":"change_request","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration><from/><funnel_neck_percent>30</funnel_neck_percent><gauge_autoscale>false</gauge_autoscale><group/><import_table/><interval>year</interval><is_published>false</is_published><is_real_time>false</is_real_time><is_scheduled>false</is_scheduled><legend_align_columns>true</legend_align_columns><legend_background_color/><legend_border_color/><legend_border_radius>0</legend_border_radius><legend_border_width>1</legend_border_width><legend_horizontal_alignment>center</legend_horizontal_alignment><legend_items_left_align>false</legend_items_left_align><legend_vertical_alignment>bottom</legend_vertical_alignment><list_ui_view/><location_field/><lower_limit/><map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map><map_source/><orderby_list/><other_threshold>-2</other_threshold><others>true</others><page_hdrftr/><pivot_expanded>true</pivot_expanded><report_drilldown/><report_source/><roles/><row/><sc_groupby_item_id/><sc_groupby_variable_id/><sc_stackby_item_id/><sc_stackby_variable_id/><score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color><series_name_text/><set_color>chart_colors</set_color><show_chart_border>false</show_chart_border><show_chart_data_label>false</show_chart_data_label><show_chart_title>report</show_chart_title><show_chart_total>false</show_chart_total><show_data_label_position_middle>false</show_data_label_position_middle><show_empty>false</show_empty><show_geographical_label>false</show_geographical_label><show_legend>true</show_legend><show_legend_border>false</show_legend_border><show_marker>false</show_marker><show_zero>false</show_zero><source_type>table</source_type><start_time/><style_config/><sumfield>business_duration</sumfield><sys_class_name>sys_report</sys_class_name><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-11 21:50:46</sys_created_on><sys_id>1b9664362f1001101b7cf7ecf699b682</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Change Requests by Category</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_report_1b9664362f1001101b7cf7ecf699b682</sys_update_name><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-11 21:50:46</sys_updated_on><table>change_request</table><title>Change Requests by Category</title><title_horizontal_alignment>center</title_horizontal_alignment><title_vertical_alignment>top</title_vertical_alignment><to/><trend_field/><type>pie</type><upper_limit/><use_color_heatmap>true</use_color_heatmap><use_null_in_trend>false</use_null_in_trend><user>bd9cdec12f1001101b7cf7ecf699b60e</user><x_axis_allow_decimals>true</x_axis_allow_decimals><x_axis_display_grid>false</x_axis_display_grid><x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color><x_axis_grid_dotted>false</x_axis_grid_dotted><x_axis_grid_width>1</x_axis_grid_width><x_axis_label_bold>false</x_axis_label_bold><x_axis_label_color/><x_axis_label_size>11</x_axis_label_size><x_axis_label_tilt>0</x_axis_label_tilt><x_axis_opposite>false</x_axis_opposite><x_axis_title/><x_axis_title_bold>true</x_axis_title_bold><x_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_title_color><x_axis_title_size>12</x_axis_title_size><y_axis_allow_decimals>true</y_axis_allow_decimals><y_axis_display_grid>true</y_axis_display_grid><y_axis_from/><y_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</y_axis_grid_color><y_axis_grid_dotted>false</y_axis_grid_dotted><y_axis_grid_width>1</y_axis_grid_width><y_axis_label_bold>false</y_axis_label_bold><y_axis_label_color/><y_axis_label_size>11</y_axis_label_size><y_axis_label_tilt>0</y_axis_label_tilt><y_axis_opposite>false</y_axis_opposite><y_axis_title/><y_axis_title_bold>true</y_axis_title_bold><y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color><y_axis_title_size>12</y_axis_title_size><y_axis_to/></sys_report></record_update>]]></payload>
+<payload_hash>-1245854360</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>5e5894902f6cc1101b7cf7ecf699b651</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17dab7a1d760000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Change Requests by Category</target_name>
+<type>Report</type>
+<update_domain>global</update_domain>
+<update_guid>5f96a436aa100110b08cde47c6c19ed0</update_guid>
+<update_guid_history>5f96a436aa100110b08cde47c6c19ed0:-1245854360</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_5479a0b32f5081101b7cf7ecf699b63e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition&gt;current.state.changesTo(3) || current.state.changesTo(4) || current.state.changesTo(7)&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;open change task check&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code 
+    checkChildTasks();
+
+    function checkChildTasks() {
+        var grChild = new GlideRecord("change_task");
+        grChild.addQuery('change_request', current.sys_id);
+        grChild.addActiveQuery();
+        grChild.query();
+        if (grChild.getRowCount() &gt; 0) {
+            gs.addErrorMessage('Can not close Change. Please close open Change Tasks first.');
+            current.setAbortAction(true);
+        }
+    }
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;btempleman&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-15 00:39:50&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5479a0b32f5081101b7cf7ecf699b63e&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;open change task check&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_5479a0b32f5081101b7cf7ecf699b63e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;btempleman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-15 23:02:30&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=5479a0b32f5081101b7cf7ecf699b63e"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1233212847</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>5e5894902f6cc1101b7cf7ecf699b654</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17dc0553b2b0000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>open change task check</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>196dd9445224c110f37c023e55e23e53</update_guid>
+<update_guid_history>196dd9445224c110f37c023e55e23e53:1233212847,53bb19807e24c1104a4f7c1c3a23e568:-3053848,ce4bacf39f5081101ff5ed9b4a34e374:1233212847,051aa0b33050811068df3631fe8b8c51:2102471914</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_report_users_groups_7ce041ba2f5001101b7cf7ecf699b647</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups"><sys_report_users_groups action="INSERT_OR_UPDATE"><group_id/><report_id display_value="">b0e041ba2f5001101b7cf7ecf699b647</report_id><sys_class_name>sys_report_users_groups</sys_class_name><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-11 23:45:34</sys_created_on><sys_id>7ce041ba2f5001101b7cf7ecf699b647</sys_id><sys_mod_count>0</sys_mod_count><sys_name>b0e041ba2f5001101b7cf7ecf699b647</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_report_users_groups_7ce041ba2f5001101b7cf7ecf699b647</sys_update_name><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-11 23:45:34</sys_updated_on><user_id display_value="Bernice Templeman">bd9cdec12f1001101b7cf7ecf699b60e</user_id></sys_report_users_groups></record_update>]]></payload>
+<payload_hash>1673430067</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>925894902f6cc1101b7cf7ecf699b653</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17dabe335910000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table/>
+<target_name>b0e041ba2f5001101b7cf7ecf699b647</target_name>
+<type>Report Users and Groups</type>
+<update_domain>global</update_domain>
+<update_guid>38e041ba11500110f2575d959c7aa049</update_guid>
+<update_guid_history>38e041ba11500110f2575d959c7aa049:1673430067</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_d6bd0f162fd405101b7cf7ecf699b6c6</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=Documentation^EQ&lt;item display_value="Documentation" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="Documentation"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Documentation Group&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;shagadorn&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-10 20:43:54&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d6bd0f162fd405101b7cf7ecf699b6c6&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Documentation Group&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_d6bd0f162fd405101b7cf7ecf699b6c6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;btempleman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-14 16:14:33&lt;/sys_updated_on&gt;&lt;template&gt;assignment_group=0ad45ec62fd0c1101b7cf7ecf699b612^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d6bd0f162fd405101b7cf7ecf699b6c6"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>223245455</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>925894902f6cc1101b7cf7ecf699b656</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17db9b95fe20000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Documentation Group</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>276632272c184110d1369f80ceb04dd7</update_guid>
+<update_guid_history>276632272c184110d1369f80ceb04dd7:223245455,56bd0f1691d40510f22f6ca5f1387aca:1872559772</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_report_b0e041ba2f5001101b7cf7ecf699b647</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report"><sys_report action="INSERT_OR_UPDATE"><additional_groupby/><aggregate>COUNT</aggregate><aggregation_source>no_override</aggregation_source><allow_data_label_overlap>false</allow_data_label_overlap><apply_alias>false</apply_alias><axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color><axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color><bar_unstack>false</bar_unstack><calendar/><chart_background_color/><chart_border_color/><chart_border_radius>0</chart_border_radius><chart_border_width>1</chart_border_width><chart_height>450</chart_height><chart_size>large</chart_size><chart_subtitle/><chart_subtitle_color/><chart_subtitle_size>14</chart_subtitle_size><chart_subtitle_style>normal</chart_subtitle_style><chart_title/><chart_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</chart_title_color><chart_title_size>16</chart_title_size><chart_title_style>normal</chart_title_style><chart_title_x_position>0</chart_title_x_position><chart_title_y_position>0</chart_title_y_position><chart_width>600</chart_width><color display_value="Default Color">de699435d7033100b4964ebfae610331</color><color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette><colors/><column/><compute_percent>aggregate</compute_percent><content/><created_by_user display_value="Bernice Templeman">bd9cdec12f1001101b7cf7ecf699b60e</created_by_user><custom_chart_size>false</custom_chart_size><custom_chart_title_position>false</custom_chart_title_position><custom_config/><decimal_precision>2</decimal_precision><description/><direction>minimize</direction><display_column_lines>false</display_column_lines><display_grid>false</display_grid><display_row_lines>false</display_row_lines><donut_width_percent>50</donut_width_percent><end_time/><exp_report_attrs>false</exp_report_attrs><field>type</field><field_list>number,short_description,type,state,start_date,end_date,requested_by,assigned_to</field_list><filter/><formatting_configuration>{"table":"change_request","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration><from/><funnel_neck_percent>30</funnel_neck_percent><gauge_autoscale>false</gauge_autoscale><group/><import_table/><interval>month</interval><is_published>false</is_published><is_real_time>false</is_real_time><is_scheduled>false</is_scheduled><legend_align_columns>true</legend_align_columns><legend_background_color/><legend_border_color/><legend_border_radius>0</legend_border_radius><legend_border_width>1</legend_border_width><legend_horizontal_alignment>center</legend_horizontal_alignment><legend_items_left_align>false</legend_items_left_align><legend_vertical_alignment>bottom</legend_vertical_alignment><list_ui_view/><location_field/><lower_limit/><map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map><map_source/><orderby_list/><other_threshold>12</other_threshold><others>true</others><page_hdrftr/><pivot_expanded>true</pivot_expanded><report_drilldown/><report_source/><roles/><row/><sc_groupby_item_id/><sc_groupby_variable_id/><sc_stackby_item_id/><sc_stackby_variable_id/><score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color><series_name_text/><set_color>color_palette</set_color><show_chart_border>false</show_chart_border><show_chart_data_label>false</show_chart_data_label><show_chart_title>report</show_chart_title><show_chart_total>false</show_chart_total><show_data_label_position_middle>false</show_data_label_position_middle><show_empty>false</show_empty><show_geographical_label>false</show_geographical_label><show_legend>true</show_legend><show_legend_border>false</show_legend_border><show_marker>false</show_marker><show_zero>false</show_zero><source_type>table</source_type><start_time/><style_config/><sumfield/><sys_class_name>sys_report</sys_class_name><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-11 23:45:34</sys_created_on><sys_id>b0e041ba2f5001101b7cf7ecf699b647</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Change Category Types Trended by Month</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_report_b0e041ba2f5001101b7cf7ecf699b647</sys_update_name><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-11 23:45:34</sys_updated_on><table>change_request</table><title>Change Category Types Trended by Month</title><title_horizontal_alignment>center</title_horizontal_alignment><title_vertical_alignment>top</title_vertical_alignment><to/><trend_field>sys_created_on</trend_field><type>trend</type><upper_limit/><use_color_heatmap>true</use_color_heatmap><use_null_in_trend>false</use_null_in_trend><user>bd9cdec12f1001101b7cf7ecf699b60e</user><x_axis_allow_decimals>true</x_axis_allow_decimals><x_axis_display_grid>false</x_axis_display_grid><x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color><x_axis_grid_dotted>false</x_axis_grid_dotted><x_axis_grid_width>1</x_axis_grid_width><x_axis_label_bold>false</x_axis_label_bold><x_axis_label_color/><x_axis_label_size>11</x_axis_label_size><x_axis_label_tilt>0</x_axis_label_tilt><x_axis_opposite>false</x_axis_opposite><x_axis_title/><x_axis_title_bold>true</x_axis_title_bold><x_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_title_color><x_axis_title_size>12</x_axis_title_size><y_axis_allow_decimals>true</y_axis_allow_decimals><y_axis_display_grid>true</y_axis_display_grid><y_axis_from/><y_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</y_axis_grid_color><y_axis_grid_dotted>false</y_axis_grid_dotted><y_axis_grid_width>1</y_axis_grid_width><y_axis_label_bold>false</y_axis_label_bold><y_axis_label_color/><y_axis_label_size>11</y_axis_label_size><y_axis_label_tilt>0</y_axis_label_tilt><y_axis_opposite>false</y_axis_opposite><y_axis_title/><y_axis_title_bold>true</y_axis_title_bold><y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color><y_axis_title_size>12</y_axis_title_size><y_axis_to/></sys_report></record_update>]]></payload>
+<payload_hash>1603153030</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>965894902f6cc1101b7cf7ecf699b652</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17dabe335e40000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Change Category Types Trended by Month</target_name>
+<type>Report</type>
+<update_domain>global</update_domain>
+<update_guid>3ce0c1bab15001106467820f4f0dd50b</update_guid>
+<update_guid_history>3ce0c1bab15001106467820f4f0dd50b:1603153030</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_6b4e4f562fd405101b7cf7ecf699b6e8</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=Network^EQ&lt;item display_value="Network" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="Network"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Network Group&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;shagadorn&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-10 20:46:26&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6b4e4f562fd405101b7cf7ecf699b6e8&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Network Group&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_6b4e4f562fd405101b7cf7ecf699b6e8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;btempleman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-14 16:17:47&lt;/sys_updated_on&gt;&lt;template&gt;assignment_group=287ebd7da9fe198100f92cc8d1d2154e^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6b4e4f562fd405101b7cf7ecf699b6e8"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>955388437</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>965894902f6cc1101b7cf7ecf699b655</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17db9bc56a50000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Network Group</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>3627be27f518411009689cb641f004b7</update_guid>
+<update_guid_history>3627be27f518411009689cb641f004b7:955388437,2b4ecf56a3d4051012f1d4570a6a717a:-2109947678</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_grid_canvas_pane_ff0105ba2f5001101b7cf7ecf699b6c1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA Change - New Tab">6ab568f22f1001101b7cf7ecf699b6b2</grid_canvas><height>10</height><portal_widget display_value="Created 2021-12-11 15:46:18">b70105ba2f5001101b7cf7ecf699b6bf</portal_widget><posx>0</posx><posy>10</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-11 23:46:19</sys_created_on><sys_id>ff0105ba2f5001101b7cf7ecf699b6c1</sys_id><sys_mod_count>5</sys_mod_count><sys_name>6ab568f22f1001101b7cf7ecf699b6b2</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_grid_canvas_pane_ff0105ba2f5001101b7cf7ecf699b6c1</sys_update_name><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-11 23:48:04</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+<payload_hash>1747650827</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>9a5894902f6cc1101b7cf7ecf699b651</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17dabe582ed0000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table/>
+<target_name>6ab568f22f1001101b7cf7ecf699b6b2</target_name>
+<type>Grid Canvas Pane</type>
+<update_domain>global</update_domain>
+<update_guid>2971c5babf5001103d62d1035e4480a6</update_guid>
+<update_guid_history>2971c5babf5001103d62d1035e4480a6:1747650827,f87189baa7500110f0fb863b483165fb:-1714145118,df6149ba585001103a5cc1b8ab0b3adb:2022838115,db4149bada500110fdc23596fe8c31ff:-1714145118,3d1185ba9c500110c29c2f00c4c3f18b:1898897423,7b0105bad35001109f825496c50c82c3:2082819902</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_4b0d8bd22fd405101b7cf7ecf699b6b2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=Software^EQ&lt;item display_value="Software" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="Software"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Software Group&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mmyers&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-10 20:44:01&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4b0d8bd22fd405101b7cf7ecf699b6b2&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Software Group&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_4b0d8bd22fd405101b7cf7ecf699b6b2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;btempleman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-14 17:13:12&lt;/sys_updated_on&gt;&lt;template&gt;assignment_group=8a4dde73c6112278017a6a4baf547aa7^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=4b0d8bd22fd405101b7cf7ecf699b6b2"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-409718252</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>9a5894902f6cc1101b7cf7ecf699b654</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17db9ef118c0000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Software Group</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>aad30b27195841108376121908b3224c</update_guid>
+<update_guid_history>aad30b27195841108376121908b3224c:-409718252,88cd03568dd405109df7fc3ffdc69c66:630700903</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_4f2777b3cb100200d71cb9c0c24c9c91</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;state_model_move_to_canceled&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments&gt;Cancel the Change Request&lt;/comments&gt;&lt;condition&gt;gs.hasRole('itil,sn_change_write') &amp;amp;&amp;amp; new ChangeFormUI(current).isCancelAvailable()&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;true&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;hint&gt;Progresses change to cancelled state&lt;/hint&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Cancel Change&lt;/name&gt;&lt;onclick&gt;setChangeCancelState();&lt;/onclick&gt;&lt;order&gt;50&lt;/order&gt;&lt;script&gt;&lt;![CDATA[var changeConfirmCancelDialog;
+
+function setChangeCancelState() {
+	g_form.setValue("state", "4");
+}
+
+if (typeof window == 'undefined')
+   setRedirect();
+
+function setRedirect() {
+    current.update();
+    action.setRedirectURL(current);
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;false&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-06-04 13:22:03&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;4f2777b3cb100200d71cb9c0c24c9c91&lt;/sys_id&gt;&lt;sys_mod_count&gt;70&lt;/sys_mod_count&gt;&lt;sys_name&gt;Cancel Change&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Change Management - State Model" source="com.snc.change_management.state_model"&gt;44e3ea8fa9a63010c0a065f439e6617b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_4f2777b3cb100200d71cb9c0c24c9c91&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;btempleman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-10 22:09:13&lt;/sys_updated_on&gt;&lt;table&gt;change_request&lt;/table&gt;&lt;ui11_compatible&gt;false&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-880772992</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>9a5894902f6cc1101b7cf7ecf699b657</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17da664a6490000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Cancel Change</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>fb31a3921e1001104f3758aa2b8f769e</update_guid>
+<update_guid_history>fb31a3921e1001104f3758aa2b8f769e:-880772992,9e7deec63854c110c5effc28f9a041bd:47894229,84eb5a06f814c1107c5e2e5c54f878c8:-880772992,88eb5a065314c110bb12d064569f6cc6:47894229</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_grid_canvas_pane_1940c97a2f5001101b7cf7ecf699b609</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA Change - New Tab">6ab568f22f1001101b7cf7ecf699b6b2</grid_canvas><height>10</height><portal_widget display_value="Created 2021-12-11 15:42:51">cd40c97a2f5001101b7cf7ecf699b606</portal_widget><posx>0</posx><posy>20</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-11 23:42:51</sys_created_on><sys_id>1940c97a2f5001101b7cf7ecf699b609</sys_id><sys_mod_count>7</sys_mod_count><sys_name>6ab568f22f1001101b7cf7ecf699b6b2</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_grid_canvas_pane_1940c97a2f5001101b7cf7ecf699b609</sys_update_name><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-11 23:48:16</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+<payload_hash>1787476712</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>9e5894902f6cc1101b7cf7ecf699b650</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17dabe5b0480000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table/>
+<target_name>6ab568f22f1001101b7cf7ecf699b6b2</target_name>
+<type>Grid Canvas Pane</type>
+<update_domain>global</update_domain>
+<update_guid>288109ba86500110df81d3bc1a04cf9a</update_guid>
+<update_guid_history>288109ba86500110df81d3bc1a04cf9a:1787476712,ba7149ba625001108badab69d694aae7:817895689,747189ba9b500110335ebe64f93635f9:-1172534230,5b6149ba81500110f556e79ab9fb29d9:-614550167,344149bae950011086b7c3e076757e68:-728160662,5421c5ba21500110e7531764771e7152:-424601273,370145ba0550011086557c2ea8f97156:1905113481,9140c97a18500110bf4bfbdecdd07b0b:-544499968</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_2165de0a2fd0c1101b7cf7ecf699b698</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=Hardware^EQ&lt;item display_value="Hardware" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="Hardware"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Change Request-Change CategoryHardware&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;fhoracio&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-09 22:00:58&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2165de0a2fd0c1101b7cf7ecf699b698&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Change Request-Change CategoryHardware&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_2165de0a2fd0c1101b7cf7ecf699b698&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;btempleman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-14 16:00:28&lt;/sys_updated_on&gt;&lt;template&gt;assignment_group=8a5055c9c61122780043563ef53438e3^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2165de0a2fd0c1101b7cf7ecf699b698"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1856343486</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>9e5894902f6cc1101b7cf7ecf699b653</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17db9ac7c430000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Change Request-Change CategoryHardware</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>5933f6af90d44110e9b34f326b3c3ea1</update_guid>
+<update_guid_history>5933f6af90d44110e9b34f326b3c3ea1:1856343486,11c51e4a95d0c1100665abe5072d8971:1381331263</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_f1dd83562fd405101b7cf7ecf699b60c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=Telecom^EQ&lt;item display_value="Telecom" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="Telecom"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Telecom Group&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;shagadorn&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-10 20:44:25&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f1dd83562fd405101b7cf7ecf699b60c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Telecom Group&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_f1dd83562fd405101b7cf7ecf699b60c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;btempleman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-14 16:15:17&lt;/sys_updated_on&gt;&lt;template&gt;assignment_group=b7a4dac62fd0c1101b7cf7ecf699b6f6^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f1dd83562fd405101b7cf7ecf699b60c"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1176919131</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>9e5894902f6cc1101b7cf7ecf699b656</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17db9ba0b9c0000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Telecom Group</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>da9636270e1841101a6c1ad77b46570d</update_guid>
+<update_guid_history>da9636270e1841101a6c1ad77b46570d:1176919131,31ddc356c4d405101b209eb1757f5c47:-1888416984</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_b5c844b72f9c41101b7cf7ecf699b643</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>on_hold</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-14 22:14:47</sys_created_on><sys_id>b5c844b72f9c41101b7cf7ecf699b643</sys_id><sys_mod_count>0</sys_mod_count><sys_name>on_hold</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_policy_action_b5c844b72f9c41101b7cf7ecf699b643</sys_update_name><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-14 22:14:47</sys_updated_on><table>change_request</table><ui_policy display_value="Change make onhold not visible  in state  new closed cancel">b2080c372f9c41101b7cf7ecf699b6b9</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+<payload_hash>2091843464</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>9e589c902f6cc1101b7cf7ecf699b6bf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17dbb032d1f0000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>on_hold</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>dce804b7439c4110f635f90c18f98551</update_guid>
+<update_guid_history>dce804b7439c4110f635f90c18f98551:2091843464</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_report_a3199f56ff0302001e68ffffffffffcb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report"><sys_report action="INSERT_OR_UPDATE"><additional_groupby>priority,assignment_group,assigned_to,category,risk,state,type</additional_groupby><aggregate>COUNT</aggregate><aggregation_source>no_override</aggregation_source><allow_data_label_overlap>false</allow_data_label_overlap><apply_alias>false</apply_alias><axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color><axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color><bar_unstack>false</bar_unstack><calendar/><chart_background_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</chart_background_color><chart_border_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</chart_border_color><chart_border_radius>0</chart_border_radius><chart_border_width>1</chart_border_width><chart_height>450</chart_height><chart_size>large</chart_size><chart_subtitle/><chart_subtitle_color/><chart_subtitle_size/><chart_subtitle_style/><chart_title/><chart_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</chart_title_color><chart_title_size>16</chart_title_size><chart_title_style/><chart_title_x_position>0</chart_title_x_position><chart_title_y_position>0</chart_title_y_position><chart_width>600</chart_width><color display_value="Default Color">de699435d7033100b4964ebfae610331</color><color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette><colors/><column>active</column><compute_percent>aggregate</compute_percent><content/><created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user><custom_chart_size>false</custom_chart_size><custom_chart_title_position>false</custom_chart_title_position><custom_config/><decimal_precision>0</decimal_precision><description/><direction>minimize</direction><display_column_lines>false</display_column_lines><display_grid>false</display_grid><display_row_lines>false</display_row_lines><donut_width_percent>50</donut_width_percent><end_time/><exp_report_attrs>true</exp_report_attrs><field>state</field><field_list>number,short_description,type,state,start_date,end_date,requested_by,assigned_to,sys_updated_on</field_list><filter table="change_request">start_date&gt;=javascript:gs.daysAgoStart(0)^start_dateRELATIVELE@dayofweek@ahead@30^state=-2^EQ<item endquery="false" field="start_date" goto="false" newquery="false" operator="&gt;=" or="false" value="javascript:gs.daysAgoStart(0)"/><item endquery="false" field="start_date" goto="false" newquery="false" operator="RELATIVE" or="false" value="LE@dayofweek@ahead@30"/><item display_value="Scheduled" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="-2"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><formatting_configuration>{"table":"change_request","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration><from/><funnel_neck_percent>30</funnel_neck_percent><gauge_autoscale>true</gauge_autoscale><group/><import_table/><interval>year</interval><is_published>false</is_published><is_real_time>false</is_real_time><is_scheduled>false</is_scheduled><legend_align_columns>false</legend_align_columns><legend_background_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</legend_background_color><legend_border_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</legend_border_color><legend_border_radius>0</legend_border_radius><legend_border_width>1</legend_border_width><legend_horizontal_alignment>center</legend_horizontal_alignment><legend_items_left_align>false</legend_items_left_align><legend_vertical_alignment>bottom</legend_vertical_alignment><list_ui_view/><location_field/><lower_limit/><map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map><map_source/><orderby_list/><other_threshold>-2</other_threshold><others>true</others><page_hdrftr/><pivot_expanded>true</pivot_expanded><report_drilldown/><report_source display_value="Change requests.Open (Change Request)">1c50b3a2d7632100b96d45a3ce61031b</report_source><roles/><row>active</row><sc_groupby_item_id/><sc_groupby_variable_id/><sc_stackby_item_id/><sc_stackby_variable_id/><score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color><series_name_text/><set_color>null</set_color><show_chart_border>false</show_chart_border><show_chart_data_label>false</show_chart_data_label><show_chart_title>report</show_chart_title><show_chart_total>false</show_chart_total><show_data_label_position_middle>false</show_data_label_position_middle><show_empty>false</show_empty><show_geographical_label>false</show_geographical_label><show_legend>true</show_legend><show_legend_border>true</show_legend_border><show_marker>true</show_marker><show_zero>false</show_zero><source_type>source</source_type><start_time/><style_config/><sumfield>business_duration</sumfield><sys_class_name>sys_report</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-10-14 12:12:32</sys_created_on><sys_id>a3199f56ff0302001e68ffffffffffcb</sys_id><sys_mod_count>10</sys_mod_count><sys_name>Upcoming Changes (30 days) - Grouped</sys_name><sys_package display_value="Change Management Overview Homepage" source="com.glideapp.report.itsm.change.overview">2261e603a9663010c0a065f439e66149</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_report_a3199f56ff0302001e68ffffffffffcb</sys_update_name><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-13 20:19:48</sys_updated_on><table>change_request</table><title>Upcoming Changes (30 days) - Grouped</title><title_horizontal_alignment>center</title_horizontal_alignment><title_vertical_alignment>top</title_vertical_alignment><to/><trend_field/><type>horizontal_bar</type><upper_limit/><use_color_heatmap>false</use_color_heatmap><use_null_in_trend>false</use_null_in_trend><user>GLOBAL</user><x_axis_allow_decimals>false</x_axis_allow_decimals><x_axis_display_grid>false</x_axis_display_grid><x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color><x_axis_grid_dotted>false</x_axis_grid_dotted><x_axis_grid_width>1</x_axis_grid_width><x_axis_label_bold>false</x_axis_label_bold><x_axis_label_color/><x_axis_label_size>11</x_axis_label_size><x_axis_label_tilt/><x_axis_opposite>false</x_axis_opposite><x_axis_title/><x_axis_title_bold>true</x_axis_title_bold><x_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_title_color><x_axis_title_size>12</x_axis_title_size><y_axis_allow_decimals>false</y_axis_allow_decimals><y_axis_display_grid>true</y_axis_display_grid><y_axis_from/><y_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</y_axis_grid_color><y_axis_grid_dotted>false</y_axis_grid_dotted><y_axis_grid_width>1</y_axis_grid_width><y_axis_label_bold>false</y_axis_label_bold><y_axis_label_color/><y_axis_label_size>11</y_axis_label_size><y_axis_label_tilt/><y_axis_opposite>false</y_axis_opposite><y_axis_title/><y_axis_title_bold>true</y_axis_title_bold><y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color><y_axis_title_size>12</y_axis_title_size><y_axis_to/></sys_report></record_update>]]></payload>
+<payload_hash>1197354300</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>d25894902f6cc1101b7cf7ecf699b652</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17db5738d680000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Upcoming Changes (30 days) - Grouped</target_name>
+<type>Report</type>
+<update_domain>global</update_domain>
+<update_guid>9ef4e213981801103be1e3edd82c799e</update_guid>
+<update_guid_history>9ef4e213981801103be1e3edd82c799e:1197354300,16f4e213fe180110435f966d5b77c9ce:1197354300,c63279d302d00110b27d1b94886d0016:1284312144,ca3279d378d00110a2206233d073dc10:-1915943188</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_5c279a0e2fd0c1101b7cf7ecf699b661</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=Applications Software^EQ&lt;item display_value="Applications Software" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="Applications Software"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Change Request-Change Category App Soft&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;fhoracio&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-09 22:08:16&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5c279a0e2fd0c1101b7cf7ecf699b661&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Change Request-Change Category App Soft&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_5c279a0e2fd0c1101b7cf7ecf699b661&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;btempleman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-14 16:05:14&lt;/sys_updated_on&gt;&lt;template&gt;assignment_group=168496c62fd0c1101b7cf7ecf699b64c^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=5c279a0e2fd0c1101b7cf7ecf699b661"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1432506984</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>d25894902f6cc1101b7cf7ecf699b655</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17db9b0da510000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Change Request-Change Category App Soft</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>4f44ba23e11841101016e1efae917ca4</update_guid>
+<update_guid_history>4f44ba23e11841101016e1efae917ca4:1432506984,d877564ebbd0c1101553706e8a40acb3:1701911559</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_grid_canvas_pane_e99e303a2f5001101b7cf7ecf699b619</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA Change - New Tab">6ab568f22f1001101b7cf7ecf699b6b2</grid_canvas><height>10</height><portal_widget display_value="Created 2021-12-11 15:35:30">a19e303a2f5001101b7cf7ecf699b617</portal_widget><posx>0</posx><posy>0</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-11 23:35:30</sys_created_on><sys_id>e99e303a2f5001101b7cf7ecf699b619</sys_id><sys_mod_count>7</sys_mod_count><sys_name>6ab568f22f1001101b7cf7ecf699b6b2</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_grid_canvas_pane_e99e303a2f5001101b7cf7ecf699b619</sys_update_name><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-11 23:47:22</sys_updated_on><width>6</width></sys_grid_canvas_pane></record_update>]]></payload>
+<payload_hash>280042772</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>d65894902f6cc1101b7cf7ecf699b651</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17dabe4dc380000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table/>
+<target_name>6ab568f22f1001101b7cf7ecf699b6b2</target_name>
+<type>Grid Canvas Pane</type>
+<update_domain>global</update_domain>
+<update_guid>d74149ba465001102dfb71c22b496ffd</update_guid>
+<update_guid_history>d74149ba465001102dfb71c22b496ffd:280042772,5c21c5baa7500110faec030c4233c556:-359031747,4c1145ba375001105f417b17b1c0d05a:-917015810,e140c97ab650011012ac7ec3beae0886:-359031747,913f743aeb5001108e78617b2fabb9dc:280042772,f2ae743a5f500110cfe9c4e76b0bc93a:1249623795,539e743aee5001100ce89cec9cb62403:-689538251,699e343ade50011077c5cea6e78b4887:-857034023</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_47d55e4a2fd0c1101b7cf7ecf699b665</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=Software^EQ&lt;item display_value="Software" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="Software"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Change Request-Change Category Software&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;fhoracio&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-09 22:03:30&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;47d55e4a2fd0c1101b7cf7ecf699b665&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Change Request-Change Category Software&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_47d55e4a2fd0c1101b7cf7ecf699b665&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;btempleman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-14 16:01:13&lt;/sys_updated_on&gt;&lt;template&gt;assignment_group=8a4dde73c6112278017a6a4baf547aa7^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=47d55e4a2fd0c1101b7cf7ecf699b665"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>465779980</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>d65894902f6cc1101b7cf7ecf699b654</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17db9ad2a960000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Change Request-Change Category Software</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>0c6336ef4dd4411039a6231e7635f755</update_guid>
+<update_guid_history>0c6336ef4dd4411039a6231e7635f755:465779980,9a565e8ac3d0c11019ba07a9fffd8c6b:-175260595</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_03e845322f9001101b7cf7ecf699b636</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;false&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;View Change Reports&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[//action.setRedirectURL('https://dev105680.service-now.com/$pa_dashboard.do?sysparm_dashboard=bd456cb22f1001101b7cf7ecf699b6b5&amp;sysparm_tab=b2b568f22f1001101b7cf7ecf699b6b6&amp;sysparm_cancelable=true&amp;sysparm_editable=true&amp;sysparm_active_panel=shareOptionsSideContent');
+
+]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;btempleman&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-12 00:25:38&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;03e845322f9001101b7cf7ecf699b636&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;View Change Reports&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_03e845322f9001101b7cf7ecf699b636&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;btempleman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-13 15:40:44&lt;/sys_updated_on&gt;&lt;table&gt;change_request&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>715077016</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>d65894902f6cc1101b7cf7ecf699b657</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17db4740f090000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>View Change Reports</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>6e15a5d7ec500110de8217bd36c61abd</update_guid>
+<update_guid_history>6e15a5d7ec500110de8217bd36c61abd:715077016,f074ad57cb500110aeb5ebe583db0878:-590180099,3c5c0536799001109efbe3f085b570d0:-583586997,081c453691900110f95015eff8d0f607:-2008041393,35bb09f255900110e20e9a5ca0c7173a:759336287,27aa05b264900110fc9f350c7e5c7dbe:-294314030,f70a4d7205900110584f8ccae1e50e80:1529665638</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_grid_canvas_6ab568f22f1001101b7cf7ecf699b6b2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas"><sys_grid_canvas action="INSERT_OR_UPDATE"><legacy_page display_value="PA Change - New Tab">2eb568f22f1001101b7cf7ecf699b6b0</legacy_page><name>PA Change - New Tab</name><sys_class_name>sys_grid_canvas</sys_class_name><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-11 21:46:54</sys_created_on><sys_id>6ab568f22f1001101b7cf7ecf699b6b2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PA Change - New Tab</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_grid_canvas_6ab568f22f1001101b7cf7ecf699b6b2</sys_update_name><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-11 21:46:54</sys_updated_on></sys_grid_canvas></record_update>]]></payload>
+<payload_hash>-1328233442</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>da5894902f6cc1101b7cf7ecf699b650</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17dab76940d0000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table/>
+<target_name>PA Change - New Tab</target_name>
+<type>Grid Canvas</type>
+<update_domain>global</update_domain>
+<update_guid>76b568f27f10011062e2b58e85509bb4</update_guid>
+<update_guid_history>76b568f27f10011062e2b58e85509bb4:-1328233442</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_1966de8a2fd0c1101b7cf7ecf699b6b6</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=Service^EQ&lt;item display_value="Service" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="Service"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Change Request-Change Category Service&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;fhoracio&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-09 22:04:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1966de8a2fd0c1101b7cf7ecf699b6b6&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Change Request-Change Category Service&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_1966de8a2fd0c1101b7cf7ecf699b6b6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;btempleman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-14 16:03:04&lt;/sys_updated_on&gt;&lt;template&gt;assignment_group=1b04de862fd0c1101b7cf7ecf699b63e^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1966de8a2fd0c1101b7cf7ecf699b6b6"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1043288545</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>da5894902f6cc1101b7cf7ecf699b653</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17db9aedd8f0000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Change Request-Change Category Service</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>53c37aefc3d44110c114fe58cc55c32a</update_guid>
+<update_guid_history>53c37aefc3d44110c114fe58cc55c32a:1043288545,99a61aca2ed0c1102d8eab2346ae7f89:-458191360</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_ed77964e2fd0c1101b7cf7ecf699b6b4</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=Network^EQ&lt;item display_value="Network" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="Network"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Change Request-Change Category Network&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;fhoracio&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-09 22:09:18&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ed77964e2fd0c1101b7cf7ecf699b6b4&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Change Request-Change Category Network&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_ed77964e2fd0c1101b7cf7ecf699b6b4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;btempleman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-14 16:05:39&lt;/sys_updated_on&gt;&lt;template&gt;assignment_group=287ebd7da9fe198100f92cc8d1d2154e^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=ed77964e2fd0c1101b7cf7ecf699b6b4"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>710118569</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>da5894902f6cc1101b7cf7ecf699b656</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17db9b1392f0000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Change Request-Change Category Network</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>09643e23e5184110a7331e2b1ae9df77</update_guid>
+<update_guid_history>09643e23e5184110a7331e2b1ae9df77:710118569,6ba7928ee4d0c1108024f84785211344:-791361336</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_change_request_RPTa3199f56ff0302001e68ffffffffffcb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="change_request" version="2" view="RPTa3199f56ff0302001e68ffffffffffcb"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>number</element><list_id display_value="change_request" element="NULL" name="change_request" parent="NULL" relationship="NULL" sys_domain="global" view="95a466df2fd401101b7cf7ecf699b65d">51a42edf2fd401101b7cf7ecf699b645</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-13 20:18:22</sys_created_on><sys_id>11a42edf2fd401101b7cf7ecf699b646</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-13 20:18:22</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>short_description</element><list_id display_value="change_request" element="NULL" name="change_request" parent="NULL" relationship="NULL" sys_domain="global" view="95a466df2fd401101b7cf7ecf699b65d">51a42edf2fd401101b7cf7ecf699b645</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-13 20:18:22</sys_created_on><sys_id>95a42edf2fd401101b7cf7ecf699b646</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-13 20:18:22</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>type</element><list_id display_value="change_request" element="NULL" name="change_request" parent="NULL" relationship="NULL" sys_domain="global" view="95a466df2fd401101b7cf7ecf699b65d">51a42edf2fd401101b7cf7ecf699b645</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-13 20:18:22</sys_created_on><sys_id>19a42edf2fd401101b7cf7ecf699b646</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-13 20:18:22</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>state</element><list_id display_value="change_request" element="NULL" name="change_request" parent="NULL" relationship="NULL" sys_domain="global" view="95a466df2fd401101b7cf7ecf699b65d">51a42edf2fd401101b7cf7ecf699b645</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-13 20:18:22</sys_created_on><sys_id>99a42edf2fd401101b7cf7ecf699b646</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-13 20:18:22</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>start_date</element><list_id display_value="change_request" element="NULL" name="change_request" parent="NULL" relationship="NULL" sys_domain="global" view="95a466df2fd401101b7cf7ecf699b65d">51a42edf2fd401101b7cf7ecf699b645</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-13 20:18:22</sys_created_on><sys_id>1da42edf2fd401101b7cf7ecf699b646</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-13 20:18:22</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>end_date</element><list_id display_value="change_request" element="NULL" name="change_request" parent="NULL" relationship="NULL" sys_domain="global" view="95a466df2fd401101b7cf7ecf699b65d">51a42edf2fd401101b7cf7ecf699b645</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-13 20:18:22</sys_created_on><sys_id>9da42edf2fd401101b7cf7ecf699b646</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-13 20:18:22</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>requested_by</element><list_id display_value="change_request" element="NULL" name="change_request" parent="NULL" relationship="NULL" sys_domain="global" view="95a466df2fd401101b7cf7ecf699b65d">51a42edf2fd401101b7cf7ecf699b645</list_id><max_value>false</max_value><min_value>false</min_value><position>6</position><sum>false</sum><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-13 20:18:22</sys_created_on><sys_id>11a42edf2fd401101b7cf7ecf699b647</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-13 20:18:22</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>assigned_to</element><list_id display_value="change_request" element="NULL" name="change_request" parent="NULL" relationship="NULL" sys_domain="global" view="95a466df2fd401101b7cf7ecf699b65d">51a42edf2fd401101b7cf7ecf699b645</list_id><max_value>false</max_value><min_value>false</min_value><position>7</position><sum>false</sum><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-13 20:18:22</sys_created_on><sys_id>91a42edf2fd401101b7cf7ecf699b647</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-13 20:18:22</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_updated_on</element><list_id display_value="change_request" element="NULL" name="change_request" parent="NULL" relationship="NULL" sys_domain="global" view="95a466df2fd401101b7cf7ecf699b65d">51a42edf2fd401101b7cf7ecf699b645</list_id><max_value>false</max_value><min_value>false</min_value><position>8</position><sum>false</sum><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-13 20:18:22</sys_created_on><sys_id>15a42edf2fd401101b7cf7ecf699b647</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-13 20:18:22</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>change_request</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-13 20:18:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>51a42edf2fd401101b7cf7ecf699b645</sys_id><sys_mod_count>0</sys_mod_count><sys_name>change_request</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_list_change_request_RPTa3199f56ff0302001e68ffffffffffcb</sys_update_name><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-13 20:18:22</sys_updated_on><sys_user/><view display_value="Rpta3199f56ff0302001e68ffffffffffcb" name="RPTa3199f56ff0302001e68ffffffffffcb">95a466df2fd401101b7cf7ecf699b65d</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>1141223341</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>da589c902f6cc1101b7cf7ecf699b6bf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17db5723ca70000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Change Request</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid>91a42edfb1d401108a96e405d7b41c49</update_guid>
+<update_guid_history>91a42edfb1d401108a96e405d7b41c49:1141223341</update_guid_history>
+<update_set display_value=""/>
+<view>RPTa3199f56ff0302001e68ffffffffffcb</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_report_users_groups_4632b5d32fd001101b7cf7ecf699b653</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups"><sys_report_users_groups action="INSERT_OR_UPDATE"><group_id/><report_id display_value="Upcoming Changes (30 days) - Grouped">a3199f56ff0302001e68ffffffffffcb</report_id><sys_class_name>sys_report_users_groups</sys_class_name><sys_created_by>btempleman</sys_created_by><sys_created_on>2021-12-13 16:38:03</sys_created_on><sys_id>4632b5d32fd001101b7cf7ecf699b653</sys_id><sys_mod_count>0</sys_mod_count><sys_name>a3199f56ff0302001e68ffffffffffcb</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_report_users_groups_4632b5d32fd001101b7cf7ecf699b653</sys_update_name><sys_updated_by>btempleman</sys_updated_by><sys_updated_on>2021-12-13 16:38:03</sys_updated_on><user_id display_value="Bernice Templeman">bd9cdec12f1001101b7cf7ecf699b60e</user_id></sys_report_users_groups></record_update>]]></payload>
+<payload_hash>999233308</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>de5894902f6cc1101b7cf7ecf699b652</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17db4a8876a0000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table/>
+<target_name>a3199f56ff0302001e68ffffffffffcb</target_name>
+<type>Report Users and Groups</type>
+<update_domain>global</update_domain>
+<update_guid>0e3279d378d00110c5645271d2bded0d</update_guid>
+<update_guid_history>0e3279d378d00110c5645271d2bded0d:999233308</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_d26912422f14c1101b7cf7ecf699b66b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=Other^EQ&lt;item display_value="Other" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="Other"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Change Request-Change Category Other&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;fhoracio&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-09 22:17:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d26912422f14c1101b7cf7ecf699b66b&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Change Request-Change Category Other&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_d26912422f14c1101b7cf7ecf699b66b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;btempleman&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-14 16:11:47&lt;/sys_updated_on&gt;&lt;template&gt;assignment_group=a715cd759f2002002920bde8132e7018^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d26912422f14c1101b7cf7ecf699b66b"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-957201896</payload_hash>
+<remote_update_set display_value="BT_06122021_v1">5a5894902f6cc1101b7cf7ecf699b64f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>btempleman</sys_created_by>
+<sys_created_on>2021-12-16 12:39:19</sys_created_on>
+<sys_id>de5894902f6cc1101b7cf7ecf699b655</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17db9b6d66c0000001</sys_recorded_at>
+<sys_updated_by>btempleman</sys_updated_by>
+<sys_updated_on>2021-12-16 12:39:19</sys_updated_on>
+<table>change_request</table>
+<target_name>Change Request-Change Category Other</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>fac5f2e3281841102406690582cbb6b0</update_guid>
+<update_guid_history>fac5f2e3281841102406690582cbb6b0:-957201896,ff9952427c14c1106213d62f8ac81d40:-1186248457</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
