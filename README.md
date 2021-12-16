@@ -22,10 +22,10 @@ ServiceNow IT Service Management Template project includes customizing the OOB f
 List of features ready and TODOs for future development
 - Customized change request
 - Customized additional change request
-- Leverafe workflow
+- Leverage workflow
 
 To-do list:
-
+- continue customizations
 
 ## Getting Started
 
@@ -37,9 +37,14 @@ To-do list:
 
 ![image](https://user-images.githubusercontent.com/12488769/146449296-0b5edcff-5871-4880-8b0a-b40e29b37a0c.png)
 
-### New Change Form
+### New Normal Change Form
 ![image](https://user-images.githubusercontent.com/12488769/146371860-5e8122b1-478c-4905-ac06-ea60b399ad5a.png)
 
+### New Emergency Change Form
+![image](https://user-images.githubusercontent.com/12488769/146450253-085634ab-3bc7-4086-8c6a-15a3e9b86644.png)
+
+### List of Open Change Requests
+![image](https://user-images.githubusercontent.com/12488769/146450574-413cf856-e687-4c42-8a03-2421309135d0.png)
 
 ## Usage
 
