@@ -29,6 +29,12 @@ To-do list:
 
 ## Getting Started
 
+### Overview
+![image](https://user-images.githubusercontent.com/12488769/146371342-182f2231-a6ee-4683-a4b1-f995702f8ef7.png)
+
+### New Change Form
+![image](https://user-images.githubusercontent.com/12488769/146371860-5e8122b1-478c-4905-ac06-ea60b399ad5a.png)
+
 
 ## Usage
 
