@@ -96,18 +96,32 @@ Workflow
 ### Canceled
 ![image](https://user-images.githubusercontent.com/12488769/146456490-1453280b-5525-4375-9674-bfeaa90429f2.png)
 
-
 ## Usage
 
-
 ## Contributors
-Here list the people who have contributed to the Change Team project. 
+Here list the people who have contributed to the project:
+
+### Change Team 
 - Bernice Templeman
 - Freddy Perez
 - Jaquina Porterfield
 - Michael Myers
 - Samuel Hagadorn
 
+### Incident Group
+- Sean Musgrave (Lead)
+- Chris Rodrigues
+- Joseph Ledesma
+- Kpumbu Jaidzeka
+- Phillip Caruthers
+
+### Problem Group  
+- Austin Magno (Lead)
+- James Hardy
+- Malykai Mejia
+- Jimmy Merrick
+- Zach Funderburk (Project Manager)
+  
 ## License
 This site was built using [GitHub](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links).
 
