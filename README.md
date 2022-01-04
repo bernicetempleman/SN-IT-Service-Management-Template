@@ -1,5 +1,7 @@
 # ServiceNow-IT-Service-Management-Template
 ServiceNow IT Service Management Template project includes customizing the OOB forms for Incident, Problem, Change Management and Service Request to built a standard procedure to be used by any customer in Single Tenant/Multi Tenant instance along with SLA, Notifications, Known Errors and Service Catalog items. It also includes the following documents as per the ITIL standards: Requirement Design for each module and Functional Requirement Specification for each module. This project is a Blueprint which can be used in future for any fresh ServiceNow instances by applying the Update Sets.
+![image](https://user-images.githubusercontent.com/12488769/148080869-d9cead39-ca91-4025-915c-55a49e207216.png)
+
 
 ## Technologies Used
 - ServiceNow
@@ -99,7 +101,7 @@ Workflow
 
 
 ## Contributors
-Here list the people who have contributed to this project. 
+Here list the people who have contributed to the Change Team project. 
 - Bernice Templeman
 - Freddy Perez
 - Jaquina Porterfield
